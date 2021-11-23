@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css"> <!-- ссылка на файл стиля -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Обратная связь</title>
+</head>
+
+<body>
+    <div class="headblock">
+        <form action="../index.html">
+        <button>Главная</button>
+        </form>
+    </div>
+    <div class="block1 text fix">
+        <form>
+            <p class="bigtext">Форма обратной связи</p>
+            <div>
+                <label for="user_name">Название организации или ваше имя</label>
+                <input type="text" id="user_name" placeholder="Сергей">
+            </div>
+            <div>
+                <label for="user_phone">Ваш телефон</label>
+                <input type="text" id="user_phone" value="+380">
+            </div>
+            <div class="border-style">
+                <label for="user_mail">Ваш E-MAIL: </label>
+                <input type="text" id="user_mail" placeholder="example@gmail.com">
+            </div>
+            <p>Выберие форму обратной связи и напишите сообщение</p>
+            <div>
+                <label for="user_select_theme">Тема письма: </label>
+                <select name="" id="user_select_theme">
+                    <option value="" selected disabled>- выбрать тему -</option>
+                    <option value="">Неполадки веб страницы</option>
+                    <option value="">Вопросы к создателю страницы</option>
+                    <option value="">Поиск решения проблемы</option>
+                </select>
+            </div>
+            <div class="border-style">
+                <label for="user_text_report">Сообщение</label><br>
+                <textarea name="" id="user_text_report" cols="45" rows="7"></textarea>
+            </div>
+            <p>Решите пример и нажмите "Отправить"</p>
+            <div>
+                <label for="user_primer">(8+13)*4 =</label>
+                <input type="text" id="user_primer">
+            </div>
+            <div>
+                <label for="user_check_text"></label>
+                <input type="checkbox" id="user_check_text">Вы разрешаете сайту хранить и обрабатывать ваши
+                персональные данные
+            </div>
+            <div>
+                <input type="submit" value="Отправить">
+            </div>
+            <div>
+                <input type="reset" value="Очистить">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

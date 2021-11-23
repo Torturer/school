@@ -1,0 +1,72 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-color: #4d077c;
+}
+
+div {
+    padding: 5px;
+}
+
+label, input, select, button {
+    display: inline-block;
+    margin: 2px auto;
+    vertical-align: middle;
+    border-radius: 4px;}
+
+input, select, button {
+    border: 1px double grey;
+}
+
+label {
+    background-size: 40px;
+}
+
+.text {
+    font-size: 13px;
+    /*общий размер текста */
+}
+
+.bigtext {
+    font-size: 25px;
+}
+
+.error-text {
+    color: red;
+    font-weight: 700;
+}
+
+.capcha {
+    width: 78px;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.headblock {
+    height: 7em;
+}
+
+.block1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10em;
+    width: 26em;
+    background-color: rgb(255 255 255 / 78%);
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 55%);
+    border-radius: 25px;
+    display: block;
+    padding: 18px;
+    text-align: center;
+}
+
+.fix {
+    width: 30em;
+}
+
+.border-style {
+    border-bottom: double 1px gray;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css"> <!-- ссылка на файл стиля -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Регистрация</title>
+</head>
+
+<body>
+    <div class="headblock">
+        <form action="../index.html">
+        <button>Главная</button>
+        </form>
+    </div>
+    <div class="block1 text">
+        <div class="bigtext">Регистрация</div>
+        <form>
+            <div class="border-style">
+                <div class="error-text ">Тут высвечивается ошибка</div>
+                <label for="user_login">Логин: </label>
+                <input type="text" id="user_login" placeholder="Kokojambo">
+            </div>
+            <div class="border-style">
+                <label for="user_mail_reg">E-Mail адрес: </label>
+                <input type="text" id="user_mail_reg" placeholder="example@gmail.com">
+            </div>
+            <div class="border-style">
+                <label for="user_password">Пароль: </label>
+                <input type="password" id="user_password" placeholder="Не менее 8-ми символов"><br>
+                <label for="user_password_check">Подтверждение: </label>
+                <input type="password" id="user_password_check">
+            </div>
+            <div class="border-style">
+                <label for="user_full_name">Полное имя: </label>
+                <input type="text" id="user_full_name" placeholder="Petro">
+            </div>
+            <div class="border-style">
+                <label for="user_capcha">Код: </label>
+                <input type="text" id="user_capcha">
+                <img class="capcha" src="../img/images.jpg" alt="код">
+            </div>
+            <div>
+                <input type="submit" value="Регистрация">
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
