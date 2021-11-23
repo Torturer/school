@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+}
+
+.block {
+    margin-top: 140px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.column_box {
+    flex: 0 1 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+label, input, select {
+    display: block;
+    padding: 2px;
+    margin-bottom: 5px;
+    border: 1px double black;
+}
+.tractor {
+}
+.sub_type {
+}
+.specs {
+}
+.driver {
+}
+
+.vin {
+}
+.make {
+}
+.model {
+}
+.date_of_buy {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.squad_of_buy {
+    flex: 0 1 60px;
+}
+
+.squad_of_buy input {
+    max-width: 58px;
+}
+
+.license_plate {
+}
+.port_pass {
+}
+.ownership {
+}
+.truck_type {
+}
