@@ -119,6 +119,10 @@ input, select, option {
     display: none;
 }
 
+.driver select {
+    background-color: #8080804d;
+}
+
 input:hover, select:hover {
     border-color: rgb(43, 255, 0);
 }
