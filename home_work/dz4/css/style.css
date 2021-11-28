@@ -130,7 +130,7 @@ body {
 .form_fix {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 }
@@ -179,4 +179,14 @@ body {
 
 .sized_input {
     min-width: 380px;
+}
+
+@media (max-width: 430px) {
+    .sized_input {
+        min-width: 230px;
+    }
+
+    .site_name {
+        font-size: 70px;
+    }
 }
